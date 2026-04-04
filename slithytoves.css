@@ -16,7 +16,7 @@ body.page-hex-home {
     background: #808080 !important;
     background-image: none !important;
     color: #c0c0c0 !important;
-    font-size: 14px !important;
+    font-size: 18px !important;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -63,7 +63,7 @@ body.page-hex-home .hex-titlebar {
     padding: 2px 4px 2px 6px;
     background: linear-gradient(180deg, #083c7e 0%, #1c5aa8 45%, #0a3d7a 100%);
     color: #ffffff;
-    font-size: 12px;
+    font-size: 16px;
     letter-spacing: 0.02em;
     user-select: none;
 }
@@ -131,7 +131,7 @@ body.page-hex-home .hex-meta {
     padding: 3px 8px;
     background: #c0c0c0;
     color: #000000;
-    font-size: 12px;
+    font-size: 16px;
     border-bottom: 1px solid #404040;
 }
 
@@ -162,7 +162,7 @@ body.page-hex-home .hex-brand {
 
 body.page-hex-home .hex-site-title {
     color: #c0c0c0 !important;
-    font-size: 13px;
+    font-size: 17px;
     text-transform: uppercase;
     letter-spacing: 0.06em;
 }
@@ -182,7 +182,7 @@ body.page-hex-home .hex-scroll {
 
 body.page-hex-home .hex-dump {
     padding: 6px 4px 4px;
-    font-size: 13px;
+    font-size: 17px;
     line-height: 1.35;
 }
 
@@ -247,7 +247,7 @@ body.page-hex-home .hex-statusbar {
     padding: 3px 8px;
     background: #c0c0c0;
     color: #000000;
-    font-size: 11px;
+    font-size: 15px;
     border-top: 1px solid #404040;
 }
 
@@ -283,7 +283,7 @@ body.page-hex-home .hex-footer-note {
     padding: 6px 8px 8px;
     background: #000000;
     color: #888888;
-    font-size: 11px;
+    font-size: 15px;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 0.04em;
@@ -305,10 +305,10 @@ body.page-hex-home p {
     }
 
     body.page-hex-home .hex-meta {
-        font-size: 11px;
+        font-size: 15px;
     }
 
     body.page-hex-home .hex-statusbar {
-        font-size: 10px;
+        font-size: 14px;
     }
 }
