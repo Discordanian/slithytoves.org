@@ -1786,7 +1786,7 @@ body.page-hex-home a:focus {
 
 body.page-hex-home .hex-window {
     width: 100%;
-    max-width: 920px;
+    max-width: max-content;
     font-family: "FixedsysExcelsior301Regular", "Courier New", Courier, monospace;
     background: #c0c0c0;
     border: 1px solid;
@@ -1929,10 +1929,11 @@ body.page-hex-home .hex-dump {
 
 body.page-hex-home .hex-line {
     display: grid;
-    grid-template-columns: 6.5ch minmax(0, 1fr) 17ch;
-    column-gap: 10px;
+    grid-template-columns: 6.5ch auto 16ch;
+    column-gap: 4ch;
     align-items: baseline;
     margin: 0;
+    width: max-content;
 }
 
 body.page-hex-home .hex-addr {
